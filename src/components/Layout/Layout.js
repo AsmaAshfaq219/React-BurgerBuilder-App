@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Styles from './Layout.css';
+import Styles from './Layout.module.css';
 
 export default (props) => (
     <Fragment>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Styles from './Burger.css';
+import Styles from './Burger.module.css';
 import Ingredient from './BurgerIngredient/BurgerIngredient';
 
 export default (props) => {
