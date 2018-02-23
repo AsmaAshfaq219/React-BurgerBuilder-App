@@ -1,5 +1,5 @@
 .BreadBottom {
-    height: 13%;
+    height: 15%;
     width: 80%;
     background: linear-gradient(#F08E4A, #e27b36);
     border-radius: 0 0 30px 30px;
@@ -8,7 +8,7 @@
 }
 
 .BreadTop {
-    height: 20%;
+    height: 22%;
     width: 80%;
     background: linear-gradient(#bc581e, #e27b36);
     border-radius: 50% 50% 0 0;
@@ -91,7 +91,7 @@
 
 .Cheese {
     width: 90%;
-    height: 4.5%;
+    height: 3%;
     margin: 2% auto;
     background: linear-gradient(#f4d004, #d6bb22);
     border-radius: 20px;
@@ -107,7 +107,7 @@
 
 .Bacon {
     width: 80%;
-    height: 3%;
+    height: 5%;
     background: linear-gradient(#bf3813, #c45e38);
     margin: 2% auto;
 }
