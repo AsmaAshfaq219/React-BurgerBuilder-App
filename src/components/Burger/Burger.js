@@ -5,32 +5,25 @@ import { Row, Col } from 'antd';
 
 export default (props) => {
 
-    // console.time('Random Person Code');
-    // const transformedIngredient2 = [];
-    // Object.keys(props.ingredients).forEach((v) => {
-    //     for (let i = 0; i < props.ingredients[v]; ++i)
-    //         transformedIngredient2.push(<BurgerIngredient type={v} key={v + i} />)
-    // });
-    // console.timeEnd('Random Person Code');
-
     // console.time('My Code'); For performance check
     let transformedIngredient = Object.keys(props.ingredients).map(ing => {
         let ingredients = [];
         for (let i = 0; i < props.ingredients[ing]; i++)
             ingredients.push(<BurgerIngredient key={ing + i} type={ing} />);
-        return [...ingredients];
+        return ingredients;
     })
     // console.timeEnd('My Code');
-    if (!transformedIngredient.join(''))
-        transformedIngredient = <p>Please Start Adding Ingredeints</p>
 
     // console.time('Max Code');
-    // const transformedIngredient = Object.keys(props.ingredients)
+    // let transformedIngredient = Object.keys(props.ingredients)
     //     .map(ing => [...Array(props.ingredients[ing])].map((_, i) =>
     //         <BurgerIngredient key={ing + i} type={ing} />))
     // console.timeEnd('Max Code')
+    if (!transformedIngredient.join(''))
+        transformedIngredient = <p>Please Start Adding Ingredeints</p>
+
     return (
-        <Row>
+        <Row >
             <Col xs={24}
                 sm={{ span: 20, offset: 2 }}
                 md={{ span: 14, offset: 5 }}
