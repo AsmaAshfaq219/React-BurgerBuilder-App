@@ -1,0 +1,22 @@
+.Toolbar {
+    position: fixed; 
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+    padding: 0;
+}
+
+.Icon {
+    font-size: 20px;
+    background-color: #e27b36;
+    padding: 8px 8px;
+    border-radius: 8px;
+    margin-left: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.Icon:hover{
+    background-color: #c15711;
+}
