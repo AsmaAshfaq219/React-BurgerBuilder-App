@@ -20,3 +20,9 @@
 .Icon:hover{
     background-color: #c15711;
 }
+
+.NavigationMenu{
+    line-height: 64px;
+    float: right;
+    margin-right: 20px;
+}
